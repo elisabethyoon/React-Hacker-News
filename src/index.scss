@@ -1,0 +1,130 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Spoqa Han Sans", "Sans-serif";
+}
+
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+input,
+select,
+textarea {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background: transparent;
+  resize: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:active,
+a:link,
+a:visited,
+a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+  font-size: 90%;
+  margin: 0;
+  cursor: pointer;
+}
+button:focus {
+  outline: none;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  font-family: "Spoqa Han Sans", "Sans-serif";
+}
+
+.app-header {
+  display: flex;
+  padding: 10px 0;
+  background: rgb(238, 168, 61);
+  li {
+    margin: 0 20px;
+    font-size: 20px;
+    a {
+      color: #fff;
+    }
+  }
+}
+
+.news-list {
+  li {
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid #eee;
+    .user-points {
+      width: 50px;
+      font-size: 14px;
+      color: #eea83d;
+    }
+    .news-contents {
+      .list-title {
+        font-size: 15px;
+      }
+      .list-info {
+        margin-top: 4px;
+        font-size: 14px;
+        color: #888;
+        .user {
+          margin-left: 6px;
+        }
+      }
+    }
+  }
+}
+
+.jobs-list {
+  li {
+    .list-number {
+      display: inline-block;
+      margin-right: 6px;
+    }
+    padding: 16px 20px;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+.user-list {
+  padding: 20px;
+  background: #f6f6f6;
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    .info-subject {
+      font-size: 18px;
+      color: #777;
+    }
+    .info-desc {
+      margin-left: 10px;
+      font-size: 16px;
+      color: #333;
+    }
+  }
+}
