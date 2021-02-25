@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { getUserData } from "../utils/Api";
 
 function number(x) {
-  debugger;
   if (!x) return;
   return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
@@ -28,7 +27,6 @@ class UserInfo extends Component {
 
   render() {
     const { userInfo } = this.state;
-    debugger;
     return (
       <div>
         <ul className="user-list">
@@ -52,7 +50,6 @@ class UserInfo extends Component {
             </p>
           </li>
         </ul>
-        <div>자료없음</div>
       </div>
     );
   }

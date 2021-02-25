@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 class AppHeader extends Component {
   render() {
@@ -7,13 +7,13 @@ class AppHeader extends Component {
       <div>
         <ul className="app-header">
           <li>
-            <Link to="/">News</Link>
+            <NavLink to="/news">News</NavLink>
           </li>
           <li>
-            <Link to="/ask">Ask</Link>
+            <NavLink to="/ask">Ask</NavLink>
           </li>
           <li>
-            <Link to="/show">Show</Link>
+            <NavLink to="/show">Show</NavLink>
           </li>
         </ul>
       </div>

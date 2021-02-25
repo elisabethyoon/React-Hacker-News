@@ -69,6 +69,9 @@ button:focus {
     a {
       color: #fff;
     }
+    a.active {
+      border-bottom: 2px solid #fff;
+    }
   }
 }
 
@@ -93,6 +96,7 @@ button:focus {
         color: #888;
         .user {
           margin-left: 6px;
+          text-decoration: underline;
         }
       }
     }
